@@ -1,7 +1,7 @@
 
 const jwt = require("jsonwebtoken");
 const asyncHandler  = require("../utils/asyncHandler");
-const { ApiError } = require("../utils/ApiError");
+const { ApiError } = require("../utils/apiError");
 require("dotenv").config();
 
 

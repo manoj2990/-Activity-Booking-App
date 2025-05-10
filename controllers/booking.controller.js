@@ -1,6 +1,6 @@
 const Booking = require('../models/booking.model');
 const Activity = require('../models/activity.model');
-const ApiError = require('../utils/ApiError');
+const ApiError = require('../utils/apiError');
 const ApiResponse = require('../utils/apiResponse');
 const asyncHandler = require('../utils/asyncHandler');
 

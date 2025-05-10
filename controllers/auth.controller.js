@@ -1,6 +1,6 @@
 const User = require('../models/user.model');
 const jwt = require('jsonwebtoken');
-const ApiError = require('../utils/ApiError');
+const ApiError = require('../utils/apiError');
 const ApiResponse = require('../utils/apiResponse');
 const asyncHandler = require('../utils/asyncHandler');
 const {JWT_SECRET_EXPIRY, JWT_SECRET,NODE_ENV} = require('../constant')
